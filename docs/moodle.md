@@ -10,8 +10,8 @@ OS: Centos7
 We can not directly update moodle from 3.1 version to 3.11 version. First we have to get moodle into intermediate version (moodle version 3.6) and then we can upgrade it to moodle version 3.11.
 ###Upgrade to moodle 3.6
 
-- https://docs.moodle.org/36/en/Upgrading#Moodle_3.1.2C_3.2.2C_3.3.2C_3.4_and_3.5_improvements
-- https://docs.moodle.org/31/en/Upgrading
+- [https://docs.moodle.org/36/en/Upgrading#Moodle_3.1.2C_3.2.2C_3.3.2C_3.4_and_3.5_improvements]](https://docs.moodle.org/36/en/Upgrading#Moodle_3.1.2C_3.2.2C_3.3.2C_3.4_and_3.5_improvements)
+- [https://docs.moodle.org/31/en/Upgrading](https://docs.moodle.org/31/en/Upgrading)
 
 Before upgrading, check that your server meets all requirements for 3.6 in Site administration > Server > Environment.
 
@@ -26,11 +26,11 @@ Set upgrade key in config.php file. (Optional)
     $CFG->upgradekey = ‘Put upgrade key here’; Also take a copy/screen shot of config.php file)
     ```
 
-    - https://docs.moodle.org/36/en/Upgrade_key
+    - [https://docs.moodle.org/36/en/Upgrade_key](https://docs.moodle.org/36/en/Upgrade_key)
 
 Backup important data.
 
-    - https://docs.moodle.org/36/en/Site_backup
+    - [https://docs.moodle.org/36/en/Site_backup](https://docs.moodle.org/36/en/Site_backup)
 
 Three parts needed to be backed-up.
 
@@ -70,10 +70,10 @@ Backup using Filezilla
 #####Backup Moodle Code
 Backup using Filezilla
 
-https://www.educative.io/edpresso/how-to-gzip-a-directory-in-linux
+- [https://www.educative.io/edpresso/how-to-gzip-a-directory-in-linux](https://www.educative.io/edpresso/how-to-gzip-a-directory-in-linux)
 
 ####Converting InnoDB tables to Barracuda
-https://docs.moodle.org/311/en/Administration_via_command_line
+- [https://docs.moodle.org/311/en/Administration_via_command_line](https://docs.moodle.org/311/en/Administration_via_command_line)
 
 Sites using MySQL with database tables using Antelope as the file format are recommended to convert the tables to the Barracuda file format. 
 
