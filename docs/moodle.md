@@ -9,9 +9,10 @@ OS: Centos7
 
 We can not directly update moodle from 3.1 version to 3.11 version. First we have to get moodle into intermediate version (moodle version 3.6) and then we can upgrade it to moodle version 3.11.
 ###Upgrade to moodle 3.6
+Reference:
 
-- [https://docs.moodle.org/36/en/Upgrading#Moodle_3.1.2C_3.2.2C_3.3.2C_3.4_and_3.5_improvements]](https://docs.moodle.org/36/en/Upgrading#Moodle_3.1.2C_3.2.2C_3.3.2C_3.4_and_3.5_improvements)
-- [https://docs.moodle.org/31/en/Upgrading](https://docs.moodle.org/31/en/Upgrading)
+[https://docs.moodle.org/36/en/Upgrading#Moodle_3.1.2C_3.2.2C_3.3.2C_3.4_and_3.5_improvements](https://docs.moodle.org/36/en/Upgrading#Moodle_3.1.2C_3.2.2C_3.3.2C_3.4_and_3.5_improvements)
+[https://docs.moodle.org/31/en/Upgrading](https://docs.moodle.org/31/en/Upgrading)
 
 Before upgrading, check that your server meets all requirements for 3.6 in Site administration > Server > Environment.
 
