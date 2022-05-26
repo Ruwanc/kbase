@@ -19,14 +19,14 @@ Before upgrading, check that your server meets all requirements for 3.6 in Site 
 
 Put moodle in maintenance mood.
 
-    ```
-    Site administration > server > Maintenance Mode
-    ```
+```
+Site administration > server > Maintenance Mode
+```
 Set upgrade key in config.php file. (Optional)
 
-    ```
-    $CFG->upgradekey = ‘Put upgrade key here’; Also take a copy/screen shot of config.php file)
-    ```
+```
+$CFG->upgradekey = ‘Put upgrade key here’; Also take a copy/screen shot of config.php file)
+```
 
     - [https://docs.moodle.org/36/en/Upgrade_key](https://docs.moodle.org/36/en/Upgrade_key)
 
