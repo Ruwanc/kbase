@@ -1,0 +1,15 @@
+site_name: Knowledge Base
+theme:
+  name: material
+  palette:
+    primary: black
+    accent: red
+  features:
+    - navigation.instant
+#navigation
+nav:
+  - 'index.md'
+  - 'linux.md'
+  - 'networking.md'
+  - 'docker.md'
+  - 'moodle.md'
