@@ -16,3 +16,5 @@ nav:
   - 'moodle.md'
 extra_css:
   - '_custom/custom.css'
+markdown_extensions:
+  - tables

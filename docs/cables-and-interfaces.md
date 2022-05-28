@@ -101,7 +101,17 @@ Ex: SC single mode Pigtail,ST multimode pigtail
 https://www.youtube.com/watch?v=pgRbLIE0zao
 
 ### Single mode vs Multimode fiber
+| SIngle mode      | Multimode                          |
+| ----------- | ------------------------------------ |
+| More expensive       | Less expensive than single mode.  |
+| Has tighter cladding      | Has less tighter cladding compaired to single mode fiber. |
+| Smaller code   | Larger core compaired to single mode fiber. |
+| More distance | Less distance |
+
 
 ### Fiber-Optic cable standerds 
+
+![Screenshot](img/networking/cables-and-interfaces/LossBudFigure1.jpg)
+[Reference: CablExpress](https://www.cablexpress.com/education/white-papers/understanding-fiber-optic-loss-budgets/)
 
 ### UTP vs Fiber Optic
