@@ -10,7 +10,8 @@ theme:
 nav:
   - 'index.md'
   - 'linux.md'
-  - 'networking.md'
+  - Networking:
+    - 'cables-and-interfaces.md'
   - 'docker.md'
   - 'moodle.md'
 extra_css:
