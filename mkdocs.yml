@@ -13,3 +13,5 @@ nav:
   - 'networking.md'
   - 'docker.md'
   - 'moodle.md'
+extra_css:
+  - '_custom/custom.css'
