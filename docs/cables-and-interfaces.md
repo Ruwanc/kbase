@@ -115,3 +115,19 @@ https://www.youtube.com/watch?v=pgRbLIE0zao
 [Reference: CablExpress](https://www.cablexpress.com/education/white-papers/understanding-fiber-optic-loss-budgets/)
 
 ### UTP vs Fiber Optic
+
+| UTP      | Fiber                          |
+| ----------- | ---------------------------- |
+| Less speed       | More speed  |
+| Support less bandwidth and distance.      | Support more bandwidth and distance.  |
+| Use copper as transmission medium.   | Use glass/plastic as transmission medium. |
+
+
+[Reference: www.truecable.com](https://www.truecable.com/blogs/cable-academy/fiber-optic-vs-copper#)
+
+## PoE (Power over Ethernet) [802.3af, 802.3at]
+PoE = 802.3af
+
+PoE+ = 802.3at
+
+- This technology discribe a system for transmitting power, along with data using standard twisted pair cables.
