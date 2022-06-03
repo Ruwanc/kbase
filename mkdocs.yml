@@ -12,6 +12,7 @@ nav:
   - 'linux.md'
   - Networking:
     - 'hub-switch-router.md'
+    - 'network-models.md'
     - 'cables-and-interfaces.md'
   - 'docker.md'
   - 'moodle.md'
