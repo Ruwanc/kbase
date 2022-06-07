@@ -23,3 +23,11 @@ No broadcast (But IPv6 use multicast insted).
 2001:0db8:4c5e:0055:0000:0000:1234:567b into
 2001:db8:4c5e:55::1234:567b
 ```
+3. IMPORTANT CONDITION: You can replace only one continuous block of such zeros in an address.
+```
+2001:0000:0000:0012:0000:0000:1234:567b
+
+2001::12::1234:567b wrong way
+
+2001:0:0:0012::1234:567b correct way
+```
