@@ -14,6 +14,7 @@ nav:
     - 'hub-switch-router.md'
     - 'network-models.md'
     - 'cables-and-interfaces.md'
+    - 'ipv6.md'
   - 'docker.md'
   - 'moodle.md'
 extra_css:
