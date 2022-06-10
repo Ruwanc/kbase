@@ -76,3 +76,7 @@ Interaction between different layers of the OSI(or TCP/IP) model. Occurs on one 
 
 ## Same-layer interraction
 Interraction between the same layer on different hosts. This allows you to 'ignore' the other layers involved and focus on interraction between a single layer on different devices. The protocols define headers to communicate with each computers and what they need to do.
+
+**The IEEE 802.3 specification limits the data portion of the 802.3 frame to a minimum of 46 and a maximum of 1500 bytes. The term maximum transmission unit (MTU) defines the maximum Layer 3 packet
+that can be sent over a medium. Because the Layer 3 packet rests inside the data portion of an Ethernet
+frame, 1500 bytes is the largest IP MTU allowed over an Ethernet**
