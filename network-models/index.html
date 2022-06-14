@@ -1,0 +1,602 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.5">
+    
+    
+      
+        <title>Network Models - Knowledge Base</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.4a0965b7.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#000000">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../_custom/custom.css">
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="black" data-md-color-accent="red">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#network-models" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Knowledge Base" class="md-header__button md-logo" aria-label="Knowledge Base" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Knowledge Base
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Network Models
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Knowledge Base" class="md-nav__button md-logo" aria-label="Knowledge Base" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Knowledge Base
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Welcome to Knowledge Base
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../linux/" class="md-nav__link">
+        Linux
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Networking
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Networking" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Networking
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hub-switch-router/" class="md-nav__link">
+        Hub, Switch and Router
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Network Models
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Network Models
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#osi-model" class="md-nav__link">
+    OSI Model
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-layer-tcpip-model" class="md-nav__link">
+    5 Layer TCP/IP model
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adjacent-layer-interaction" class="md-nav__link">
+    Adjacent-layer interaction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#same-layer-interraction" class="md-nav__link">
+    Same-layer interraction
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cables-and-interfaces/" class="md-nav__link">
+        Cables and Interfaces
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ipv6/" class="md-nav__link">
+        IPv6
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docker/" class="md-nav__link">
+        Docker
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../moodle/" class="md-nav__link">
+        Moodle
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#osi-model" class="md-nav__link">
+    OSI Model
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-layer-tcpip-model" class="md-nav__link">
+    5 Layer TCP/IP model
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adjacent-layer-interaction" class="md-nav__link">
+    Adjacent-layer interaction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#same-layer-interraction" class="md-nav__link">
+    Same-layer interraction
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="network-models">Network Models</h1>
+<h2 id="osi-model">OSI Model</h2>
+<p>Open System Interconnection ModelA conceptual model that categorizes and standardized the different functions in a network.
+7 layers</p>
+<p>7.Application -&gt; Interract with software applications(web browsers), http,https
+        Functions-&gt; Identifying communication partners,Synchronizing communication, Provide process to process communication.</p>
+<p>6.Presentation -&gt; Data in the application layer in application format. It needs to be translated to a different format to be sent over the network.
+        Function -&gt; Trans between application and knetwork format. Eg. encrypttion of data as it is sent and decrypt data as it is received. Also translates between different application layer formats.</p>
+<p>5.Session -&gt; Controls dialogues(sessions) between communicating hosts. Establishes, manages and terminates communications between the local application and the remote application.(web browser and youtube)</p>
+<p>4.Transport -&gt; Segments and reassembleds data for communications between end hosts. Break large pieses of data into smaller segments which can be more esdily sent over the network and are less likely to cause transmission problems if errors occur. Provide host-to-host communication.</p>
+<p>3.Network -&gt;Provide connectivity between end hosts on different networks. Provide logical addressing. Provide path selection between source and destination. Router operae at layer 3.</p>
+<p>2.Data Link -&gt; Provides node to node connectivity and data transfer(pc to switch,switch to router, router to router). Defines how data is formatted for transmission over a physical medium(UTP). Detects and corrects physical layer errors. Uses layer 2 addressing, separate from Layer 3 addressing. Switches operate at layer 2.</p>
+<p>1.Physical -&gt; Defines physical characteristics of the medium used to transfer data between devices.</p>
+<p>PDU Types</p>
+<p>7,6,5 (Upper Layer data) -&gt; DATA</p>
+<p>4 (Transport Layer) -&gt; Segment</p>
+<p>3 (Network Layer) -&gt; Packet</p>
+<p>2 (Data Link Layer)-&gt; Frame</p>
+<p>Protocols: Set of logical rules that devices must follow to communicate.</p>
+<h2 id="5-layer-tcpip-model">5 Layer TCP/IP model</h2>
+<ol>
+<li>
+<p>Application</p>
+</li>
+<li>
+<p>Transport </p>
+</li>
+<li>
+<p>Network</p>
+</li>
+<li>
+<p>Data-Link</p>
+</li>
+<li>
+<p>Physical</p>
+</li>
+</ol>
+<p>Application &amp; Transport = Applications that need to send and receive data.
+Network = Delivering data over the entir path from the original source to destination.
+Data-Link = Focuses sending data over one type of physical link.
+Physical = How to transmit bits over each individual link.</p>
+<p>TCP/IP Application Layer
+Application layer protocols provide services to the application software running on a computer. Application layer does not define the applications itself, but it defines services that applications need.
+Ex:- HTTP defines how web browsers can pull the content of a web page from a web server.
+Provides an interface between software running on a computer and the network itself.</p>
+<p>TCP/IP Transport Layer
+Transport layer protocols provides services to the application layer protocols that reside one layer higher in the TCP/IP model.
+    Services provides by TCP
+        Error recovery service(Provided to application layer protocols)
+        - To recover from errors TCP use concept of Acknowledgements.</p>
+<p>TCP/IP Network Layer
+IP protocol belongs to this layer. IP protocol provides addressing and routing.</p>
+<p>TCP/IP Data-Link &amp; Physical Layer
+Define the protocols and hardware require to deliver data accross some physical network.</p>
+<p>Encapsulation</p>
+<p>Application    Data
+Transport      Data + TCP Header   =&gt; Segment
+Network        Data + TCP header + IP Header   =&gt; Packet
+Data-Link      Link Trailer + Data + TCP Header + IP Header + Link Header   =&gt; Frame</p>
+<h2 id="adjacent-layer-interaction">Adjacent-layer interaction</h2>
+<p>Interaction between different layers of the OSI(or TCP/IP) model. Occurs on one computer, with two adjacent layers in the model. The higher layer requests service from the next lower layer and the lower layer provides the service to the higher layer.</p>
+<h2 id="same-layer-interraction">Same-layer interraction</h2>
+<p>Interraction between the same layer on different hosts. This allows you to 'ignore' the other layers involved and focus on interraction between a single layer on different devices. The protocols define headers to communicate with each computers and what they need to do.</p>
+<p><strong>The IEEE 802.3 specification limits the data portion of the 802.3 frame to a minimum of 46 and a maximum of 1500 bytes. The term maximum transmission unit (MTU) defines the maximum Layer 3 packet
+that can be sent over a medium. Because the Layer 3 packet rests inside the data portion of an Ethernet
+frame, 1500 bytes is the largest IP MTU allowed over an Ethernet</strong></p>
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../hub-switch-router/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Hub, Switch and Router" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Hub, Switch and Router
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../cables-and-interfaces/" class="md-footer__link md-footer__link--next" aria-label="Next: Cables and Interfaces" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Cables and Interfaces
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant"], "search": "../assets/javascripts/workers/search.85cb4492.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.431f3d41.min.js"></script>
+      
+    
+  </body>
+</html>
