@@ -114,6 +114,15 @@ https://www.youtube.com/watch?v=pgRbLIE0zao
 ![Screenshot](img/networking/cables-and-interfaces/LossBudFigure1.jpg)
 [Reference: CablExpress](https://www.cablexpress.com/education/white-papers/understanding-fiber-optic-loss-budgets/)
 
+#### IEEE 802.3 10-Gbps Fiber Standards
+ 
+| Standard | Cable type | Max Distance |
+| ------ | ------ | ------ |
+| 10GBASE-S | MM | 400m |
+| 10GBASE-LX4 | MM | 300m |
+| 10GBASE-LR | SM | 10km |
+| 10GBASE-E | SM | 30km |
+
 ### UTP vs Fiber Optic
 
 | UTP      | Fiber                          |
